@@ -4,7 +4,7 @@ package ar.com.ap.actividad4.Modelos;
 
 public class Icono {
     
-    public static Icono MUSICAL_NOTE = new Icono(new int[]{0x004A}); //\xF0\x9F\x8E\xB5
+    public static Icono MUSICAL_NOTE = new Icono(new int[]{0xD83C, 0xDFB5}); 
 
     public static Icono ROCKET = new Icono(new int[]{0xD83D, 0xDE80});
 
